@@ -2,7 +2,11 @@ body {
     margin: 0;
 }
 .container {
-    background-color: rgb(58, 134, 200);
+    background-image: url("../assets/bg-img.png");
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
     height: 100vh;
     width: 100%;
 }
@@ -16,6 +20,7 @@ body {
 @media screen and (min-width: 1200px)
 {
     .container{
-        background-color: yellow;
+        background-color: rgb(247, 247, 245);
+        /* background-size: 50%; */
     }    
 }
